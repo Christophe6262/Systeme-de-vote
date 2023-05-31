@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  padding: 1rem 1rem 2rem 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 68px;
+  text-align: center;
+}
+.bar {
+  margin: 0 auto;
+  background-color: cornflowerblue;
+  height: 5px;
+  width: 10vw;
+}
+
+.list {
+  padding: 5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.candidate {
+  background: white;
+  box-shadow: 8px 13px 20px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+
+  height: 200px;
+  width: 200px;
+}
+.vote-btn {
+  border: none;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+
+  box-shadow: 11px 8px 50px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s linear;
+}
+
+.vote-btn:hover {
+  color: white;
+  background: cornflowerblue;
+}
+
+.reset {
+  text-align: center;
+  padding: 4rem;
+}
+.btn-reset {
+  display: inline-block;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid cornflowerblue;
+
+  color: cornflowerblue;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0.5rem;
+  transition: all 0.3s linear;
+  box-shadow: 5px 5px 5px 5px lightgray;
+}
+
+.btn-reset:hover {
+  color: white;
+  background: cornflowerblue;
+}
